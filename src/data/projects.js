@@ -81,7 +81,7 @@ const projects = [
     image: "iss-docking-sim.jpeg"
   },
   {
-    name: "SatFlare",
+    name: "SatDump",
     dateAdded: "6/21/2023",
     tags: ["Radio", "Satellites"],
     description: "A generic satellite data processing software.",
@@ -223,6 +223,38 @@ const projects = [
     description: "TinyGS is an open network of Ground Stations distributed around the world to receive and operate LoRa satellites, weather probes and other flying objects, using cheap and versatile modules.",
     website: "https://tinygs.com/",
     image: "tinygs.png"
+  },
+  {
+    name: "STK",
+    dateAdded: "06/23/2024",
+    tags: ["Mission Design", "Simulation"],
+    description: "Ansys Systems Tool Kit (STK) provides a physics-based modeling environment for analyzing platforms and payloads in a realistic mission context.",
+    website: "https://www.ansys.com/products/missions/ansys-stk",
+    image: "stk.png"
+  },
+  {
+    name: "Open MCT",
+    dateAdded: "06/23/2024",
+    tags: ["Ground Control"],
+    description: "Open MCT is a next-generation mission operations data visualization framework. Web-based, for desktop and mobile.",
+    website: "https://nasa.github.io/openmct/",
+    image: "openmct.png"
+  },
+  {
+    name: "satvis.space",
+    dateAdded: "06/23/2024",
+    tags: ["OSINT", "Satellites"],
+    description: "Satellite orbit visualization and pass prediction using satellite.js and CesiumJS.",
+    website: "https://github.com/Flowm/satvis",
+    image: "satvis.png"
+  },
+  {
+    name: "CCSDS WIRESHARK DISSECTOR",
+    dateAdded: "06/23/2024",
+    tags: ["Satellites", "OSINT"],
+    description: "this project extends the list by providing dissectors for CCSDS protocols.",
+    website: "https://essr.esa.int/project/ccsds-wireshark-dissector",
+    image: "ccsds-wireshark-dissector.png"
   },
 ];
 
